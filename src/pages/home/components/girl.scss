@@ -1,0 +1,105 @@
+.girl {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #edecea;
+}
+.home_girl {
+  height: 650px;
+  width: 1392px;
+
+  background-image: url("../images/girlTheBiggest.png");
+  background-size: cover;
+
+  // display: flex;
+  margin-top: 60px;
+
+  &-block {
+    margin-left: 111px;
+    width: 670px;
+
+    &-title {
+      font-family: "Nunito";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 40px;
+      line-height: 40px;
+      color: rgba(0, 0, 0, 0.87);
+      margin-bottom: 21px;
+      margin-top: 185px;
+    }
+
+    &-text {
+      font-family: "Nunito";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 26px;
+      color: rgba(0, 0, 0, 0.87);
+      width: 527px;
+      margin-bottom: 25px;
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .home_girl {
+    background-image: url("../images/girlPhoto.png");
+    height: 650px;
+    display: flex;
+    margin-top: 60px;
+    width: 1024px;
+
+    &-block {
+      margin-left: 60px;
+      width: 670px;
+
+      &-title {
+        font-family: "Nunito";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 40px;
+        color: rgba(0, 0, 0, 0.87);
+        margin-bottom: 21px;
+        margin-top: 185px;
+      }
+
+      &-text {
+        font-family: "Nunito";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: rgba(0, 0, 0, 0.87);
+        width: 527px;
+        margin-bottom: 25px;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .home_girl {
+    background-image: url("../images/girlPhotoTablet.png");
+    height: 500px;
+    display: flex;
+    margin-top: 60px;
+    width: 100%;
+
+    &-block {
+      margin-left: 32px;
+      width: 424px;
+
+      &-title {
+        margin-bottom: 21px;
+        margin-top: 81px;
+      }
+
+      &-text {
+        width: 424px;
+        margin-bottom: 31px;
+      }
+    }
+  }
+}

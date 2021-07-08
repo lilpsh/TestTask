@@ -1,0 +1,46 @@
+.footprint {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 2px;
+  background-color: #f8f8f8;
+  padding-right: 205px;
+  height: 177px;
+
+  &-medium {
+    display: none;
+  }
+}
+.footerBlock {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 57px;
+  border-top: 1px solid #e0e0e0;
+
+  &-text {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: "Nunito";
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .footprint {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 2px;
+    background-color: #f8f8f8;
+    padding-right: 0px;
+    height: 177px;
+
+    &-medium {
+      display: flex;
+    }
+
+    &-big {
+      display: none;
+    }
+  }
+}

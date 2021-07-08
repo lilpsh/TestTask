@@ -1,0 +1,142 @@
+.home_header {
+  height: 60px;
+  width: 100%;
+  z-index: 3;
+  position: fixed;
+  top: 0px;
+  box-sizing: border-box;
+  background-color: #fff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+
+  &-a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: "Nunito";
+    font-size: 16px;
+    line-height: 26px;
+    padding: 7px 16px;
+
+    &:first-of-type {
+      margin-left: 5px;
+    }
+
+    &:hover {
+      padding: 7px 16px;
+      background: rgba(0, 189, 211, 0.1);
+      border-radius: 4px;
+      color: #00bdd3;
+    }
+  }
+}
+.mobile {
+  display: none;
+}
+.block {
+  padding: 17px 40px 17px 40px;
+
+  width: 100%;
+  max-width: 1170px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.block2 {
+  margin-right: -20px;
+}
+
+@media (max-width: 1440px) {
+  .home_header {
+    height: 60px;
+    width: 100%;
+    z-index: 3;
+    position: fixed;
+    top: 0px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+
+    &-a {
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.87);
+      font-family: "Nunito";
+      font-size: 16px;
+      line-height: 26px;
+      padding: 7px 16px;
+
+      &:first-of-type {
+        margin-left: 5px;
+      }
+
+      &:hover {
+        padding: 7px 16px;
+        background: rgba(0, 189, 211, 0.1);
+        border-radius: 4px;
+        color: #00bdd3;
+      }
+    }
+  }
+
+  .block {
+    padding: 17px 40px 17px 60px;
+
+    width: auto;
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .block2 {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 992px) {
+  .block2 {
+    display: none;
+  }
+
+  .block {
+    padding: 13px 23px 11px 32px;
+
+    max-width: 768px;
+  }
+  .mobile {
+    display: flex;
+
+    &-menu {
+      width: 270px;
+
+      &-logo {
+        padding: 17px 16px;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .block2 {
+    display: none;
+  }
+
+  .block {
+    padding: 12px 14px 12px 16px;
+
+    max-width: 360px;
+    box-sizing: border-box;
+  }
+  .mobile {
+    display: flex;
+
+    &-menu {
+      width: 270px;
+
+      &-logo {
+        padding: 17px 16px;
+      }
+    }
+  }
+}
