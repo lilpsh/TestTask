@@ -6,6 +6,18 @@
   // flex-direction: column;
 }
 
+.__react_component_tooltip {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  // line-height: 26px;
+  /* or 162% */
+
+  display: flex;
+  align-items: center;
+}
+
 .home_users {
   display: flex;
   justify-content: center;
@@ -69,6 +81,7 @@
         }
 
         &-name {
+          cursor: pointer;
           display: -webkit-box;
           -webkit-line-clamp: 2;
           -webkit-box-orient: vertical;
@@ -101,6 +114,7 @@
           color: rgba(0, 0, 0, 0.87);
         }
         &-email {
+          cursor: pointer;
           display: -webkit-box;
           -webkit-line-clamp: 1;
           -webkit-box-orient: vertical;

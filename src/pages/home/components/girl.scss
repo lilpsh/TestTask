@@ -8,7 +8,7 @@
   height: 650px;
   width: 1392px;
 
-  background-image: url("../images/girlTheBiggest.png");
+  background-image: url("../images/girlTheBiggest.jpg");
   background-size: cover;
 
   // display: flex;
@@ -48,7 +48,7 @@
 
 @media (max-width: 1440px) {
   .home_girl {
-    background-image: url("../images/girlPhoto.png");
+    background-image: url("../images/girlPhoto.jpg");
     height: 650px;
     display: flex;
     margin-top: 60px;
@@ -85,9 +85,9 @@
 
 @media (max-width: 992px) {
   .home_girl {
-    background-image: url("../images/girlPhotoTablet.png");
+    background-image: url("../images/girlPhotoTablet.jpg");
     @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-      background-image: url("../images/girlPhotoTabletX2.png");
+      background-image: url("../images/girlPhotoTabletX2.jpg");
     }
     height: 500px;
     display: flex;
@@ -113,9 +113,9 @@
 
 @media (max-width: 600px) {
   .home_girl {
-    background-image: url("../images/girlTheSmallest.png");
+    background-image: url("../images/girlTheSmallest.jpg");
     @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-      background-image: url("../images/girlTheSmallestX2.png");
+      background-image: url("../images/girlTheSmallestX2.jpg");
     }
     height: 100%;
 
