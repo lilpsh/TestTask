@@ -84,7 +84,7 @@ const Users = () => {
           {users.map((user) => (
             <li key={user.id} className="home_users-list-li">
               <div className="home_users-list-li-content">
-                <img src={user.photo} className="home_users-list-li-content-photo" />
+                <img alt={user.name} src={user.photo} className="home_users-list-li-content-photo" />
                 <h3 className="home_users-list-li-content-name" data-tip={user.name}>{user.name}</h3>
                 <p className="home_users-list-li-content-position">{user.position}</p>
                 <p className="home_users-list-li-content-email" data-tip={user.email}>{user.email}</p>
