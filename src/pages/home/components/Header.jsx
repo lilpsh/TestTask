@@ -60,8 +60,8 @@ const Header = () => {
                 <Divider />
                 <List className="mobile-menu-list" style={{padding:'17px 16px'}}>
                   {['About me', 'Relationship', 'Users', 'Sign up', 'Terms and Conditions'].map((text, index) => (
-                    <a className="mobile-menu-list-item" style={{color:'black', textDecoration:'none'}} onClick={toggleDrawer} href="#signUp">
-                      <ListItem button key={text}>
+                    <a className="mobile-menu-list-item" key={text} style={{color:'black', textDecoration:'none'}} onClick={toggleDrawer} href="#signUp">
+                      <ListItem button >
                         <ListItemText classes={{
                             root: classes.root, // class name, e.g. `classes-nesting-root-x`
                             // input: classes.input, // class name, e.g. `classes-nesting-label-x
@@ -73,8 +73,8 @@ const Header = () => {
                 <Divider />
                 <List className="mobile-menu-list" style={{padding:'17px 16px'}}>
                   {['How it works', 'Partnership', 'Help', 'Level testimonial', 'Contact us'].map((text, index) => (
-                    <a className="mobile-menu-list-item" style={{color:'black', textDecoration:'none'}} onClick={toggleDrawer} href="#signUp">
-                      <ListItem button key={text}>
+                    <a className="mobile-menu-list-item" key={text} style={{color:'black', textDecoration:'none'}} onClick={toggleDrawer} href="#signUp">
+                      <ListItem button >
                         <ListItemText classes={{
                             root: classes.root, // class name, e.g. `classes-nesting-root-x`
                             // input: classes.input, // class name, e.g. `classes-nesting-label-x
@@ -86,8 +86,8 @@ const Header = () => {
                 <Divider />
                 <List className="mobile-menu-list" style={{padding:'17px 16px'}}>
                   {['Articles', 'Our news', 'Testimonials', 'Licenses', 'Privacy Policy'].map((text, index) => (
-                    <a className="mobile-menu-list-item" style={{color:'black', textDecoration:'none'}} onClick={toggleDrawer} href="#signUp">
-                      <ListItem button key={text}>
+                    <a className="mobile-menu-list-item" key={text} style={{color:'black', textDecoration:'none'}} onClick={toggleDrawer} href="#signUp">
+                      <ListItem button >
                         <ListItemText classes={{
                             root: classes.root, // class name, e.g. `classes-nesting-root-x`
                             // input: classes.input, // class name, e.g. `classes-nesting-label-x

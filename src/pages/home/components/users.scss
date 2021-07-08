@@ -175,51 +175,58 @@
             border-radius: 50%;
             margin-bottom: 15px;
           }
+        }
+      }
+    }
+  }
+}
 
-          &-name {
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-            font-family: "Nunito";
-            font-style: normal;
-            font-weight: normal;
-            font-size: 22px;
-            line-height: 28px;
-            text-align: center;
-            color: rgba(0, 0, 0, 0.87);
-            margin-bottom: 4px;
-          }
-          &-position {
-            font-family: "Nunito";
-            font-style: normal;
-            font-weight: normal;
-            font-size: 16px;
-            line-height: 26px;
-            text-align: center;
-            color: rgba(0, 0, 0, 0.87);
-          }
-          &-phone {
-            font-family: "Nunito";
-            font-style: normal;
-            font-weight: normal;
-            font-size: 16px;
-            line-height: 26px;
-            text-align: center;
-            color: rgba(0, 0, 0, 0.87);
-          }
-          &-email {
-            display: -webkit-box;
-            -webkit-line-clamp: 1;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-            font-family: "Nunito";
-            font-style: normal;
-            font-weight: normal;
-            font-size: 16px;
-            line-height: 26px;
-            text-align: center;
-            color: rgba(0, 0, 0, 0.87);
+@media (max-width: 600px) {
+  .users {
+    padding: 22px 16px 0px;
+  }
+
+  .home_users {
+    max-width: 768px;
+
+    &-title {
+      margin-top: 113px;
+    }
+
+    &-button {
+      margin-top: 45px;
+    }
+
+    &-subtitle {
+      margin-bottom: 25px;
+    }
+
+    &-list {
+      width: 100%;
+      margin-left: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+
+      &-li {
+        word-break: break-all;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 10px 0px;
+        height: 313px;
+        border-radius: 10px;
+        background-color: #ffffff;
+
+        &-content {
+          margin: 36px 30px 28px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          &-photo {
+            border-radius: 50%;
+            margin-bottom: 15px;
           }
         }
       }

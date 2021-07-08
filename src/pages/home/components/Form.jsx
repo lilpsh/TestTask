@@ -83,7 +83,7 @@ const Form = ({getUsers}) => {
       })
   }, [])
 
-  console.log(positions);
+  // console.log(positions);
 
   const formik = useFormik({
     validateOnChange: false,

@@ -6,7 +6,8 @@ import InputMask from "react-input-mask";
 
 const useStyles = makeStyles({
   root: {
-    width: 380,
+    maxWidth: 380,
+    width:'100%',
     marginBottom:31,
 
 

@@ -34,6 +34,7 @@
 
     &-radios {
       width: 100%;
+      max-width: 380px;
       &-title {
         margin-top: -7px;
         // margin-bottom: 2px;
@@ -138,5 +139,66 @@
   }
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 600px) {
+  .home_formBlock {
+    &-title {
+      margin: 146px 0 10px;
+      padding: 0 17px;
+    }
+
+    &-subtitle {
+    }
+
+    &-form {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+
+      &-radios {
+        width: 100%;
+        &-title {
+          margin-top: -7px;
+          // margin-bottom: 2px;
+          font-family: "Nunito";
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 26px;
+          color: rgba(0, 0, 0, 0.87);
+        }
+      }
+
+      &-upload {
+        &-wrapper {
+          max-width: 380px;
+          width: 100%;
+          margin: 46px 0 28px;
+
+          &-error {
+            .home_formBlock-form-upload-label-button {
+            }
+            .home_formBlock-form-upload-label-text {
+            }
+          }
+        }
+
+        &-label {
+          &:hover {
+            .home_formBlock-form-upload-label-text {
+            }
+          }
+
+          &-button {
+            min-width: 83px;
+          }
+
+          &-text {
+            min-width: auto;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
 }

@@ -59,7 +59,7 @@ const Upload = (props) => {
 
   const handleFile = (data) => {
     const file = data.target.files[0];
-    console.log(file);
+    // console.log(file);
 
     if(!file){
       return
@@ -95,8 +95,6 @@ const Upload = (props) => {
   };
 
 
-
-
   return (
     <>
       <div className={!error ? 'home_formBlock-form-upload-wrapper' : 'home_formBlock-form-upload-wrapper home_formBlock-form-upload-wrapper-error'}>
@@ -104,7 +102,7 @@ const Upload = (props) => {
           <div className="home_formBlock-form-upload-label-button">
             Upload
           </div>
-          <div className="home_formBlock-form-upload-label-text home_formBlock-form-upload-label-text-uploaded">
+          <div className={!fileName ? "home_formBlock-form-upload-label-text" : "home_formBlock-form-upload-label-text home_formBlock-form-upload-label-text-uploaded"}>
             <p>{fileName ? fileName : "Upload your photo" }</p>
           </div>
           <input onChange={handleFile} style={{display:'none'}} type="file" id='file' />

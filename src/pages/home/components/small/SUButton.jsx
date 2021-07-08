@@ -36,7 +36,7 @@ const SUButton = ({ title, onClick,onSignUp, disabled, type}) => {
     window.location.href="#signUp"
   }
   const classes = useStyles();
-  console.log(title);
+  // console.log(title);
   return (
     <Button
       classes={{

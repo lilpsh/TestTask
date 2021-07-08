@@ -44,3 +44,40 @@
     }
   }
 }
+
+@media (max-width: 600px) {
+  .footprint {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0px;
+    background-color: #f8f8f8;
+    padding-right: 0px;
+    height: 148px;
+    overflow: hidden;
+
+    &-medium {
+      display: flex;
+      transform: scale(0.9);
+      transform-origin: right;
+    }
+
+    &-big {
+      display: none;
+    }
+  }
+  .footerBlock {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 57px;
+    border-top: 1px solid #e0e0e0;
+
+    &-text {
+      color: rgba(0, 0, 0, 0.87);
+      font-family: "Nunito";
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+}

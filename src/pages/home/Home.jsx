@@ -14,10 +14,10 @@ const Home = () => {
       <Header />
       <main>
         <Girl />
-        {/* <Boy />
-        <Users /> */}
+        <Boy />
+        <Users />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }
